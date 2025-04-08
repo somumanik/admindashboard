@@ -29,18 +29,20 @@ export default function Testing() {
 
     return (
         <div className='  overflow-y-scroll w-[20%] h-[100vh]  fixed top-0 left-0 lg:block hidden'>
+            
             <div className='max-w-full p-4 mt-4 mx-1 '>
                 <a href="home"><img className=' mx-auto py-2' src="https://www.wscubetech.com/images/wscube-tech-logo-2.svg" alt="" />
                 </a>
                 <div className='border-b-1 py-2 mx-1'></div>
                 <ul className=" font-medium">
                     <a href="/dashboard">
-                        <li className="pb-3">
+                        <Link to={'/'} className="pb-3">
                             <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"><svg className="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 21"><path d="M16.975 11H10V4.025a1 1 0 0 0-1.066-.998 8.5 8.5 0 1 0 9.039 9.039.999.999 0 0 0-1-1.066h.002Z"></path><path d="M12.5 0c-.157 0-.311.01-.565.027A1 1 0 0 0 11 1.02V10h8.975a1 1 0 0 0 1-.935c.013-.188.028-.374.028-.565A8.51 8.51 0 0 0 12.5 0Z"></path></svg><span className="ms-3">Dashboard</span>
                             </div>
-                        </li>
+                        </Link>
                     </a>
                     <div className='border-b-1 mx-1 mb-3'></div>
+
                     {/* FirstUser Link Start */}
                     <li onClick={() => setPasswordstatus(!passwordstatus)} className="cursor-pointer">
                         <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
@@ -60,6 +62,7 @@ export default function Testing() {
                         </ul>
                     </li>
                     {/* FirstUser Link End */}
+
                     {/* Enquiry Link Start */}
                     <li onClick={() => setPasswordstatusEnq(!passwordstatusEnq)} className="cursor-pointer">
                         <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
@@ -69,12 +72,12 @@ export default function Testing() {
                         </div>
                         <ul className={passwordstatusEnq ? "block" : "hidden"}>
                             <a href="/enquiry">
-                                <li>
+                                <Link to={'/contact-enquiry'}>
                                     <button className="flex items-center p-2 w-full text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                                         <IoMdRadioButtonOn />
                                         <span className="font-semibold ms-4 text-[14px] whitespace-nowrap">Contact Enquirys</span>
                                     </button>
-                                </li>
+                                </Link>
                             </a>
                             <a href="/newsletter"><li>
                                 <button className="flex items-center p-2 w-full text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">

@@ -43,6 +43,27 @@ export default function ViewUser() {
                         </div>
                         <p className='text-[25px] font-semibold text-white px-4'>Orders</p>
                     </div>
+                    <div className='bg-red-500 rounded-[10px] h-[200px]'>
+                        <div className='flex justify-between pt-4 px-4 items-center'>
+                            <h1 className='text-[25px] font-bold text-white'>44K  <span className='text-[20px]'>(-23.6% ↓)</span></h1>
+                            <CiMenuKebab className='text-[20px] font-bold text-white' />
+                        </div>
+                        <p className='text-[25px] font-semibold text-white px-4'>Orders</p>
+                    </div>
+                    <div className='bg-red-500 rounded-[10px] h-[200px]'>
+                        <div className='flex justify-between pt-4 px-4 items-center'>
+                            <h1 className='text-[25px] font-bold text-white'>44K  <span className='text-[20px]'>(-23.6% ↓)</span></h1>
+                            <CiMenuKebab className='text-[20px] font-bold text-white' />
+                        </div>
+                        <p className='text-[25px] font-semibold text-white px-4'>Orders</p>
+                    </div>
+                    <div className='bg-red-500 rounded-[10px] h-[200px]'>
+                        <div className='flex justify-between pt-4 px-4 items-center'>
+                            <h1 className='text-[25px] font-bold text-white'>44K  <span className='text-[20px]'>(-23.6% ↓)</span></h1>
+                            <CiMenuKebab className='text-[20px] font-bold text-white' />
+                        </div>
+                        <p className='text-[25px] font-semibold text-white px-4'>Orders</p>
+                    </div>
                 </div>
 
 
