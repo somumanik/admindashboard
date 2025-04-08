@@ -9,7 +9,8 @@ export default function Home() {
         <div className='max-w-full grid grid-cols-[20%_auto]'>
             <div className='  overflow-y-scroll w-[20%] h-[100vh] bg-amber-200 fixed top-0 left-0 lg:block hidden'>
                 <div >
-                    <a href="home"><img className=' mx-auto py-2' src="https://www.wscubetech.com/images/wscube-tech-logo-2.svg" alt="" /></a>
+                    <a href="home"><img className=' mx-auto py-2' src="https://www.wscubetech.com/images/wscube-tech-logo-2.svg" alt="" />
+                    </a>
                     <div className='border-b-1 py-2 mx-1'></div>
                     <div className='max-w-full p-4 mt-4 mx-1 '>
                         <Testing />
@@ -18,7 +19,7 @@ export default function Home() {
             </div>
 
 
-
+{/* Second Div Blank */}
             <div>
             </div>
         </div>
