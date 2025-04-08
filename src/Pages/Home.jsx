@@ -11,7 +11,7 @@ export default function Home() {
                 <div >
                     <a href="home"><img className=' mx-auto py-2' src="https://www.wscubetech.com/images/wscube-tech-logo-2.svg" alt="" /></a>
                     <div className='border-b-1 py-2 mx-1'></div>
-                    <div className='max-w-full border-1 p-4 mt-4 mx-1 '>
+                    <div className='max-w-full p-4 mt-4 mx-1 '>
                         <Testing />
                     </div>
                 </div>
