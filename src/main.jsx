@@ -6,6 +6,7 @@ import MainLayout from './Common/MainLayout'
 import Home from './Pages/Home'
 import ViewUser from './Pages/ViewUser'
 import ContactEnquiry from './Pages/ContactEnquiry'
+import NewsLetter from './Pages/NewsLetter'
 
 
 
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
               <Route path='/' element={<Home/>}/>
               <Route path='/user' element={<ViewUser/>}/>
               <Route path='/contact-enquiry' element={<ContactEnquiry/>}/>
+              <Route path='/news-enquiry' element={<NewsLetter/>}/>
           </Route>
       </Routes> 
    </BrowserRouter>

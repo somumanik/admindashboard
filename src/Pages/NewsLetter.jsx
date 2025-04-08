@@ -1,19 +1,18 @@
 import React from 'react'
-import { CiMenuKebab } from 'react-icons/ci'
 import Testing from '../Common/Testing'
 
-export default function ContactEnquiry() {
+export default function NewsLetter() {
   return (
-   <div className='max-w-full grid grid-cols-[20%_auto]'>
+    <div className='max-w-full grid grid-cols-[20%_auto]'>
    
-               <Testing />
+               <Testing/>
    
    
                <div className='fixed top-[16.4%] left-[25%] py-5 lg:w-[70%]  mx-auto bg-white'>
-                   
+                  
                    <div className='border-1'>
                        <div className=' flex justify-between border-b-1 p-3'>
-                           <p className='text-2xl'>Contact Enquiry Management</p>
+                           <p className='text-2xl'>News Enquiry Management</p>
                            <div className='flex gap-2'>
                                <button class="rounded-lg px-1 py-2 bg-blue-700 text-green-100 hover:bg-green-800 duration-300">Succ</button>
                                <button class="rounded-lg px-4 py-2 bg-green-700 text-green-100 hover:bg-green-800 duration-300">Success</button>

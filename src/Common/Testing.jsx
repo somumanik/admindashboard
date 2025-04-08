@@ -29,7 +29,7 @@ export default function Testing() {
 
     return (
         <div className='  overflow-y-scroll w-[20%] h-[100vh]  fixed top-0 left-0 lg:block hidden'>
-            
+
             <div className='max-w-full p-4 mt-4 mx-1 '>
                 <a href="home"><img className=' mx-auto py-2' src="https://www.wscubetech.com/images/wscube-tech-logo-2.svg" alt="" />
                 </a>
@@ -79,10 +79,13 @@ export default function Testing() {
                                     </button>
                                 </Link>
                             </a>
-                            <a href="/newsletter"><li>
-                                <button className="flex items-center p-2 w-full text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                                    <IoMdRadioButtonOn />
-                                    <span className="font-semibold ms-4 text-[14px] whitespace-nowrap">Newsletters</span></button></li></a>
+                            <a href="/newsletter">
+                                <Link to={'/news-enquiry'}>
+                                    <button className="flex items-center p-2 w-full text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                        <IoMdRadioButtonOn />
+                                        <span className="font-semibold ms-4 text-[14px] whitespace-nowrap">Newsletters</span></button>
+                                </Link>
+                            </a>
                         </ul>
                     </li>
                     {/* Enquiry Link End */}
