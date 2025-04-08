@@ -47,7 +47,7 @@ export default function Testing() {
                         <a href="/user">
                             <li>
                                 <button className="flex items-center p-2 w-full text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                                    <IoMdRadioButtonOn />
+                                    <div><IoMdRadioButtonOn /></div>
                                     <span className="font-semibold ms-4 text-[14px] whitespace-nowrap">View User</span>
                                 </button>
                             </li>

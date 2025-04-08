@@ -11,7 +11,7 @@ export default function Header() {
         <div className=''> </div>
 
         {/* Second Grid Div Start */}
-        <div className='bg-slate-400 h-[93vh] '>
+        <div className='bg-slate-100 h-[93vh] '>
           <nav class="bg-white border-gray-200 dark:bg-gray-900">
             <div class="max-w-screen-xl flex flex-wrap-reverse  items-center justify-between mx-auto p-4">
 

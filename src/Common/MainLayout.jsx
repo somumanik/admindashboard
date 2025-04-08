@@ -10,7 +10,7 @@ export default function MainLayout() {
             <Header />
              <Outlet />
             <Footer/>
-            {/* <Testing/> */}
+          
         </div>
     )
 }
