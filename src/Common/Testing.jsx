@@ -3,7 +3,7 @@ import { FaSlidersH, FaUserAlt } from 'react-icons/fa'
 import { FaBagShopping, FaBarsStaggered, FaClockRotateLeft, FaMessage, FaUserPen } from 'react-icons/fa6'
 import { FcFaq } from 'react-icons/fc'
 import { IoMdRadioButtonOn } from 'react-icons/io'
-import { IoChevronDown } from 'react-icons/io5'
+import { IoChevronDown, IoChevronUp } from 'react-icons/io5'
 import { LuNotepadText } from 'react-icons/lu'
 import { MdInvertColors } from 'react-icons/md'
 import { SiMaterialdesign } from 'react-icons/si'
@@ -41,13 +41,13 @@ export default function Testing() {
                     <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <FaUserAlt />
                         <span className="flex-1 ms-3 whitespace-nowrap">Users</span>
-                        <IoChevronDown />
+                       <div> { passwordstatus ? <IoChevronUp/> : <IoChevronDown />}  </div> 
                     </div>
                     <ul className={passwordstatus ? "block" : "hidden"}>
                         <a href="/user">
                             <li>
                                 <button className="flex items-center p-2 w-full text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                                    <div><IoMdRadioButtonOn /></div>
+                                    <IoMdRadioButtonOn />
                                     <span className="font-semibold ms-4 text-[14px] whitespace-nowrap">View User</span>
                                 </button>
                             </li>
@@ -60,7 +60,7 @@ export default function Testing() {
                     <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <FaMessage />
                         <span className="flex-1 ms-3 whitespace-nowrap">Enquirys</span>
-                        <IoChevronDown />
+                        <div> { passwordstatusEnq ? <IoChevronUp/> : <IoChevronDown />}  </div> 
                     </div>
                     <ul className={passwordstatusEnq ? "block" : "hidden"}>
                         <a href="/enquiry">
@@ -84,7 +84,7 @@ export default function Testing() {
                     <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <MdInvertColors />
                         <span className="flex-1 ms-3 whitespace-nowrap">Colors</span>
-                        <IoChevronDown />
+                        <div> { passwordstatuscolor ? <IoChevronUp/> : <IoChevronDown />}  </div> 
                     </div>
                     <ul className={passwordstatuscolor ? "block" : "hidden"}>
                         <a href="/color/add">
@@ -111,7 +111,7 @@ export default function Testing() {
                     <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <SiMaterialdesign />
                         <span className="flex-1 ms-3 whitespace-nowrap">Materials</span>
-                        <IoChevronDown />
+                        <div> { passwordstatusMat ? <IoChevronUp/> : <IoChevronDown />}  </div> 
                     </div>
                     <ul className={passwordstatusMat ? "block" : "hidden"}>
                         <a href="/material/add">
@@ -131,7 +131,7 @@ export default function Testing() {
                 <li onClick={() => setPasswordstatusParCa(!passwordstatusParCa)} className="cursor-pointer">
                     <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"><FaBarsStaggered />
                         <span className="flex-1 ms-3 whitespace-nowrap">Parent Categorys</span>
-                        <IoChevronDown />
+                        <div> { passwordstatusParCa ? <IoChevronUp/> : <IoChevronDown />}  </div> 
                     </div>
                     <ul className={passwordstatusParCa ? "block" : "hidden"}>
                         <a href="/category/add">
@@ -157,7 +157,7 @@ export default function Testing() {
                     <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <FaBarsStaggered />
                         <span className="flex-1 ms-3 whitespace-nowrap">  Sub Categorys</span>
-                        <IoChevronDown />
+                        <div> { passwordstatusSubCa ? <IoChevronUp/> : <IoChevronDown />}  </div> 
                     </div>
                     <ul className={passwordstatusSubCa ? "block" : "hidden"}>
                         <a href="/category/sub-category/add">
@@ -180,7 +180,7 @@ export default function Testing() {
                     <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <FaBarsStaggered />
                         <span className="flex-1 ms-3 whitespace-nowrap">Sub Sub Categorys</span>
-                        <IoChevronDown />
+                        <div> { passwordstatusSubSubCa ? <IoChevronUp/> : <IoChevronDown />}  </div> 
                     </div>
                     <ul className={passwordstatusSubSubCa ? "block" : "hidden"}><a href="/category/sub-sub-category/add">
                         <li>
@@ -207,7 +207,7 @@ export default function Testing() {
                     <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <FaBagShopping />
                         <span className="flex-1 ms-3 whitespace-nowrap">Products</span>
-                        <IoChevronDown />
+                        <div> { passwordstatusProd ? <IoChevronUp/> : <IoChevronDown />}  </div> 
                     </div>
                     <ul className={passwordstatusProd ? "block" : "hidden"}><a href="/category/sub-sub-category/add">
                         <li>
@@ -234,7 +234,7 @@ export default function Testing() {
                     <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <FaClockRotateLeft />
                         <span className="flex-1 ms-3 whitespace-nowrap">Why Choose US</span>
-                        <IoChevronDown />
+                       <div> { passwordstatusWhyChooUs ? <IoChevronUp/> : <IoChevronDown />}  </div> 
                     </div>
                     <ul className={passwordstatusWhyChooUs ? "block" : "hidden"}><a href="/category/sub-sub-category/add">
                         <li>
@@ -261,7 +261,7 @@ export default function Testing() {
                     <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <LuNotepadText />
                         <span className="flex-1 ms-3 whitespace-nowrap">Orders</span>
-                        <IoChevronDown />
+                        <div> { passwordstatusOrde ? <IoChevronUp/> : <IoChevronDown />}  </div> 
                     </div>
                     <ul className={passwordstatusOrde ? "block" : "hidden"}><a href="/category/sub-sub-category/add">
                         <li>
@@ -288,7 +288,7 @@ export default function Testing() {
                     <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <FaSlidersH />
                         <span className="flex-1 ms-3 whitespace-nowrap">Sliders</span>
-                        <IoChevronDown />
+                        <div> { passwordstatusSlider ? <IoChevronUp/> : <IoChevronDown />}  </div> 
                     </div>
                     <ul className={passwordstatusSlider ? "block" : "hidden"}><a href="/category/sub-sub-category/add">
                         <li>
@@ -315,7 +315,7 @@ export default function Testing() {
                     <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <TbGpsFilled />
                         <span className="flex-1 ms-3 whitespace-nowrap">Country</span>
-                        <IoChevronDown />
+                        <div> { passwordstatusCountr ? <IoChevronUp/> : <IoChevronDown />}  </div> 
                     </div>
                     <ul className={passwordstatusCountr ? "block" : "hidden"}><a href="/category/sub-sub-category/add">
                         <li>
@@ -342,7 +342,7 @@ export default function Testing() {
                     <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <FaUserPen />
                         <span className="flex-1 ms-3 whitespace-nowrap">Testimonials</span>
-                        <IoChevronDown />
+                        <div> { passwordstatusTesti ? <IoChevronUp/> : <IoChevronDown />}  </div> 
                     </div>
                     <ul className={passwordstatusTesti ? "block" : "hidden"}><a href="/category/sub-sub-category/add">
                         <li>
@@ -369,7 +369,7 @@ export default function Testing() {
                     <div className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <FcFaq />
                         <span className="flex-1 ms-3 whitespace-nowrap">Faqs</span>
-                        <IoChevronDown />
+                        <div> { passwordstatusFaq ? <IoChevronUp/> : <IoChevronDown />}  </div> 
                     </div>
                     <ul className={passwordstatusFaq ? "block" : "hidden"}><a href="/category/sub-sub-category/add">
                         <li>
