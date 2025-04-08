@@ -8,6 +8,7 @@ import { LuNotepadText } from 'react-icons/lu'
 import { MdInvertColors } from 'react-icons/md'
 import { SiMaterialdesign } from 'react-icons/si'
 import { TbGpsFilled } from 'react-icons/tb'
+import { Link } from 'react-router'
 
 export default function Testing() {
     let [passwordstatus, setPasswordstatus] = useState(false)
@@ -45,12 +46,12 @@ export default function Testing() {
                     </div>
                     <ul className={passwordstatus ? "block" : "hidden"}>
                         <a href="/user">
-                            <li>
+                            <Link to={'/user'}>
                                 <button className="flex items-center p-2 w-full text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                                     <IoMdRadioButtonOn />
                                     <span className="font-semibold ms-4 text-[14px] whitespace-nowrap">View User</span>
                                 </button>
-                            </li>
+                            </Link>
                         </a>
                     </ul>
                 </li>

@@ -4,6 +4,7 @@ import './index.css'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import MainLayout from './Common/MainLayout'
 import Home from './Pages/Home'
+import ViewUser from './Pages/ViewUser'
 
 
 
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
       <Routes>
           <Route path='/' element={<MainLayout/>}>
               <Route path='/' element={<Home/>}/>
+              <Route path='/user' element={<ViewUser/>}/>
           </Route>
       </Routes> 
    </BrowserRouter>
