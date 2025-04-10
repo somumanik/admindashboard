@@ -7,6 +7,7 @@ import Home from './Pages/Home'
 import ViewUser from './Pages/ViewUser'
 import ContactEnquiry from './Pages/ContactEnquiry'
 import NewsLetter from './Pages/NewsLetter'
+import Error from './Pages/Error'
 
 
 
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')).render(
               <Route path='/user' element={<ViewUser/>}/>
               <Route path='/contact-enquiry' element={<ContactEnquiry/>}/>
               <Route path='/news-enquiry' element={<NewsLetter/>}/>
+              <Route path='/*' element={<Error/>}/>
           </Route>
       </Routes> 
    </BrowserRouter>

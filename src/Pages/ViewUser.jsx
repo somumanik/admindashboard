@@ -9,7 +9,7 @@ export default function ViewUser() {
             <Testing />
 
 
-            <div className='fixed top-[16.4%] left-[25%] py-5 lg:w-[70%]  mx-auto bg-white'>
+            <div className='fixed top-[19%] left-[25%] py-5 lg:w-[70%]  mx-auto bg-white'>
                 {/* <div className=' grid grid-cols-3 my-5 gap-4'>
 
                     <div className='bg-indigo-500 rounded-[10px] h-[200px]'>

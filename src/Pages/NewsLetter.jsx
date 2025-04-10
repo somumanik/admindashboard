@@ -8,7 +8,7 @@ export default function NewsLetter() {
                <Testing/>
    
    
-               <div className='fixed top-[16.4%] left-[25%] py-5 lg:w-[70%]  mx-auto bg-white'>
+               <div className='fixed top-[19%] left-[25%] py-5 lg:w-[70%]  mx-auto bg-white'>
                   
                    <div className='border-1'>
                        <div className=' flex justify-between border-b-1 p-3'>

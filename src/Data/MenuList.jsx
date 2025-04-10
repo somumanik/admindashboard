@@ -16,6 +16,8 @@ import { TbGpsFilled } from 'react-icons/tb'
             submenu2:"View User",
             icon: <FaUserAlt/>,
             iconradio: <IoMdRadioButtonOn />,
+            name:"adduser",
+            name2:"viewuser",
             
         },
         {
@@ -25,6 +27,8 @@ import { TbGpsFilled } from 'react-icons/tb'
             submenu2:"Newsletters",
             icon: <FaMessage/>,
             iconradio: <IoMdRadioButtonOn />,
+            name:"contact-enquiry",
+            name2:"newsletters",
         },
         {
             id:3,
@@ -33,6 +37,8 @@ import { TbGpsFilled } from 'react-icons/tb'
             submenu2:"View Color",
             icon: <MdInvertColors/>,
             iconradio: <IoMdRadioButtonOn />,
+            name:"add-color",
+            name2:"view-color",
         },
         {
             id:4,
@@ -41,6 +47,8 @@ import { TbGpsFilled } from 'react-icons/tb'
             submenu2:"View Materials",
             icon: <SiMaterialdesign/>,
             iconradio: <IoMdRadioButtonOn />,
+            name:"add-material",
+            name2:"view-material",
         },
         {
             id:5,
@@ -49,6 +57,8 @@ import { TbGpsFilled } from 'react-icons/tb'
             submenu2:"View Categorys",
             icon: <FaBarsStaggered/>,
             iconradio: <IoMdRadioButtonOn />,
+            name:"add-category",
+            name2:"view-category",
         },
         {
             id:6,
@@ -57,14 +67,19 @@ import { TbGpsFilled } from 'react-icons/tb'
             submenu2:"View Categorys",
             icon: <FaBarsStaggered/>,
             iconradio: <IoMdRadioButtonOn />,
+            name:"add-category",
+            name2:"view-category",
         },
         {
             id:7,
             menu: "Sub Sub Categorys",
             submenu:"Add Sub Categorys",
+            submenu2:"View Sub Categorys",
             icon: <FaBarsStaggered/>,
             iconradio: <IoMdRadioButtonOn />,
-            submenu2:"View Sub Categorys"
+            name:"add-sub-categorys",
+            name2:"view-sub-category",
+            
         },
         {
             id:8,
@@ -73,6 +88,8 @@ import { TbGpsFilled } from 'react-icons/tb'
             submenu2:"View Product",
             icon: <FaBagShopping/>,
             iconradio: <IoMdRadioButtonOn />,
+            name:"add-product",
+            name2:"view-product",
         },
         {
             id:9,
@@ -81,6 +98,8 @@ import { TbGpsFilled } from 'react-icons/tb'
             submenu2:"View Why Choose Us",
             icon: <FaClockRotateLeft/>,
             iconradio: <IoMdRadioButtonOn />,
+            name:"add-why-choose-us",
+            name2:"view-why-choose-us",
         },
         {
             id:10,
@@ -88,6 +107,8 @@ import { TbGpsFilled } from 'react-icons/tb'
             submenu:"orders",
             icon: <LuNotepadText/>,
             iconradio: <IoMdRadioButtonOn />,
+            name:"orders",
+            name2:"-",
             
         },
         {
@@ -97,6 +118,8 @@ import { TbGpsFilled } from 'react-icons/tb'
             submenu2:"View Slider",
             icon: <FaSlidersH/>,
             iconradio: <IoMdRadioButtonOn />,
+            name:"add-slider",
+            name2:"view-slider",
         },
         {
             id:12,
@@ -105,6 +128,8 @@ import { TbGpsFilled } from 'react-icons/tb'
             submenu2:"View Country",
             icon: <TbGpsFilled/>,
             iconradio: <IoMdRadioButtonOn />,
+            name:"add-country",
+            name2:"view-country",
         },
         {
             id:13,
@@ -113,6 +138,8 @@ import { TbGpsFilled } from 'react-icons/tb'
             submenu2:"View Testimonials",
             icon: <FaUserPen />,
             iconradio: <IoMdRadioButtonOn />,
+            name:"add-testimonials",
+            name2:"view-testimonials",
         },
         {
             id:14,
@@ -121,6 +148,8 @@ import { TbGpsFilled } from 'react-icons/tb'
             submenu2:"View Faq",
             icon: <FcFaq/>,
             iconradio: <IoMdRadioButtonOn />,
+            name:"add-faq",
+            name2:"view-faq",
         },
         {
             id:15,
@@ -128,5 +157,7 @@ import { TbGpsFilled } from 'react-icons/tb'
             submenu:"Conditions",
             icon: <FaUserAlt/>,
             iconradio: <IoMdRadioButtonOn />,
+            name:"conditions",
+            name2:"-",
         },
     ]
