@@ -34,7 +34,7 @@ export default function Testing() {
         <div className='  overflow-y-scroll w-[20%] h-[100vh] bg-gray-400 fixed top-0 left-0 lg:block hidden'>
 
             <div className='max-w-full p-4 mt-4 mx-1 '>
-                <a href="home"><img className='bg-white mx-auto py-2' src="https://www.wscubetech.com/images/wscube-tech-logo-2.svg" alt="" />
+                <a href="home"><img className='bg-gray-200 mx-auto py-2' src="https://www.wscubetech.com/images/wscube-tech-logo-2.svg" alt="" />
                 </a>
                 <div className='border-b-1 py-2 mx-1'></div>
                 <ul className=" font-medium">
