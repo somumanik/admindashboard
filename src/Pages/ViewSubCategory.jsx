@@ -37,7 +37,8 @@ export default function ViewSubCategory() {
                   <th scope="col" class="px-0 py-3">Sub Category Name</th>
                   <th scope="col" class=" w-[12%] ">Image</th>
                   <th scope="col" class=" w-[10%] ">Order</th>
-                  <th scope="col" class="w-[10%]  ">Status</th><th scope="col" class="w-[6%]">Action</th>
+                  <th scope="col" class="w-[10%]  ">Status</th>
+                  <th scope="col" class="w-[6%]">Action</th>
                 </tr>
               </thead>
               <tbody>

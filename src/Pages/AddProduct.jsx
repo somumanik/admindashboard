@@ -14,19 +14,19 @@ export default function AddProduct() {
                     <div>
                         <form action="" className='p-2'>
                             <div className='grid grid-cols-3 gap-5'>
-                                <div>
-                                    <div className='h-80' style={{ border: "1px solid red" }}>
-                                        <label htmlFor="" className='text-[16px] font-semibold'>Category Image</label>
+                                <div className='flex flex-col gap-1'>
+                                    <div className='h-50' style={{ border: "1px solid #ccc" }}>
+                                        <label htmlFor="" className='text-[16px] font-semibold p-1'>Category Image</label>
                                         <input type="file" className='' />
 
                                     </div>
-                                    <div className='h-80' style={{ border: "1px solid red" }}>
-                                        <label htmlFor="" className='text-[16px] font-semibold'>Category Image</label>
+                                    <div className='h-50' style={{ border: "1px solid #ccc" }}>
+                                        <label htmlFor="" className='text-[16px] font-semibold p-1'>Category Image</label>
                                         <input type="file" className='' />
 
                                     </div>
-                                    <div className='h-80' style={{ border: "1px solid red" }}>
-                                        <label htmlFor="" className='text-[16px] font-semibold'>Category Image</label>
+                                    <div className='h-50' style={{ border: "1px solid #ccc" }}>
+                                        <label htmlFor="" className='text-[16px] font-semibold p-1'>Category Image</label>
                                         <input type="file" className='' />
 
                                     </div>

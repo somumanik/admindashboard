@@ -29,6 +29,7 @@ import AddWhyChooseus from './Pages/AddWhyChooseus'
 import ViewWhyChooseus from './Pages/ViewWhyChooseus'
 import AddFaq from './Pages/AddFaq'
 import ViewFaq from './Pages/ViewFaq'
+import AddProduct from './Pages/AddProduct'
 
 
 
@@ -50,9 +51,9 @@ createRoot(document.getElementById('root')).render(
           <Route path='/view-material' element={<ViewMaterial />} />
           <Route path='/add-category' element={<Addcategory />} />
           <Route path='/view-category' element={<ViewCategory />} />
-          {/* <Route path='/add-sub-categorys' element={<AddSubCategory />} /> */}
+          <Route path='/add-sub-categorys' element={<AddSubCategory />} />
           <Route path='/view-sub-category' element={<ViewSubCategory/>} />
-          <Route path='/add-product' element={<NewsLetter />} />
+          <Route path='/add-product' element={<AddProduct />} />
           <Route path='/view-product' element={<ViewProducts />} />
           <Route path='/add-why-choose-us' element={<AddWhyChooseus />} />
           <Route path='/view-why-choose-us' element={<ViewWhyChooseus />} />
@@ -61,7 +62,7 @@ createRoot(document.getElementById('root')).render(
           <Route path='/view-slider' element={<ViewSlider />} />
           <Route path='/add-country' element={<AddCountry />} />
           <Route path='/view-country' element={<ViewCountry />} />
-          {/* <Route path='/add-testimonials' element={<AddTestimonial />} /> */}
+          <Route path='/add-testimonials' element={<AddTestimonial />} />
           <Route path='/view-testimonials' element={<ViewTestimonial />} />
           <Route path='/add-faq' element={<AddFaq/>} />
           {/* <Route path='/view-faq' element={<ViewFaq/>} /> */}
