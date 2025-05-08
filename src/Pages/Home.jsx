@@ -5,6 +5,12 @@ import { FaBars } from 'react-icons/fa'
 import { CiMenuKebab } from 'react-icons/ci'
 import Login from './Login'
 
+
+// git add public/_redirects
+// git commit -m "Add redirects for Netlify"
+// git push
+
+
 export default function Home() {
     return (
         <>

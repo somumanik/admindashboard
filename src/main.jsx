@@ -32,6 +32,10 @@ import ViewFaq from './Pages/ViewFaq'
 import AddProduct from './Pages/AddProduct'
 
 
+// git add public/_redirects
+// git commit -m "Add redirects for Netlify"
+// git push
+
 
 
 

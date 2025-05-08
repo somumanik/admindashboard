@@ -7,3 +7,9 @@ export default defineConfig({
   base: '/home/',
   plugins: [react(),tailwindcss()],
 })
+
+
+
+// git add public/_redirects
+// git commit -m "Add redirects for Netlify"
+// git push

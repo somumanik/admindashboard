@@ -2,6 +2,12 @@ import React from 'react'
 import Home from './Home'
 import { Link } from 'react-router'
 
+
+// git add public/_redirects
+// git commit -m "Add redirects for Netlify"
+// git push
+
+
 export default function Login() {
     return (
         <div>
